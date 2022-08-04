@@ -1,0 +1,184 @@
+.signin-main{
+    width: 100%;
+    height: 188vh;
+    position: relative;
+    background: url("https://assets.nflxext.com/ffe/siteui/vlv3/1ef84595-1fdb-4404-adac-15215ceeb3ae/7645af9d-2679-4f54-b57d-3a6b5c670e14/IN-en-20220711-popsignuptwoweeks-perspective_alpha_website_medium.jpg") no-repeat center
+      center/cover;
+}
+.signin-main::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.4);
+  } 
+.signin-inner{
+    width: 100%;
+    height: 15vh;
+}
+.signin-container{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    flex-direction: row;
+}
+.signin-box{
+    width: 34%;
+    height: 90vh;
+    margin: 0 auto;
+    padding: 40px 0;   
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.signin-box-in{
+    width: 70%;
+    height: 60vh;
+}
+.signin-box-in h1{
+    color: #fff;
+}
+.signin-box button{
+    background-color:#e50914;
+    color: #ffffff;
+    height: 50px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+.email-in{
+    background-color:#333333;
+    color: #ffffff ;
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    margin: 10px 0;
+}
+.pass-in{
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    margin: 10px 0;
+}
+.checkbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.signin-box-out p{
+    color: #ffffff;
+    font-size: 0.8rem;
+}
+.checkbox p{
+    color: #ffffff;
+    margin-right: 100px;
+}
+.signin-box-out{
+    margin-top: 50px;
+    width: 70%;
+    height: 40vh;
+}
+.signin-box-out span{
+    color: #ffffff;
+}
+.signin-blank{
+    width: 100%;
+    height: 280px;
+}
+.signin-footer{
+    width: 100%;
+    height: 45vh;
+    background: rgba(0, 0, 0, 0.8);
+
+
+}
+/* .signin-end{
+    width: 100%;
+    height: 10vh;
+    background: rgba(0, 0, 0, 0.8);
+
+} */
+.signin-footer-up{
+    width: 100%;
+    height: 50px;
+}
+.signin-dropdown select{
+    background-color: rgba(0, 0, 0, 0.6) ;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 20px;
+    color: #ffffff;
+    margin-left: 20px; 
+}
+.sign-main{
+    width: 100%;
+    margin: auto;
+}
+.signin-main li a {
+    text-decoration: none;
+    color: rgb(68, 66, 66);
+}
+.sign-main ul {
+    color: rgb(68, 66, 66);
+    font-size: 16px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .sign-footer-link{
+    color:#ffffff;
+    font-size: 16px;
+    width: 80%;
+    margin: auto;
+    text-decoration: none;
+  }
+  @media(max-width:720px){
+    .signin-main{
+        background-color: black;
+        background-image: none;
+        height: 130vh;
+  }
+  .signin-container{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+}
+  .signin-box{
+    width: 100%;
+  }
+  .signin-inner img{
+    width: 150px;
+    padding-left: 20px;
+  }
+  .signin-blank{
+    width: 100%;
+    height: 1px;
+    background-color:rgb(116, 111, 111);
+}
+.signin-inner{
+    width: 100%;
+    height: 10vh;
+  
+}
+.signin-footer{
+    width: 100%;
+    height: fit-content;
+    background: rgba(0, 0, 0, 0);
+
+  }
+  .signin-footer-up{
+    width: 100%;
+    height: 50px;
+    background: rgba(0, 0, 0, 0);
+}
+}

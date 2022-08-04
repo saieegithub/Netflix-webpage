@@ -1,0 +1,187 @@
+.row2 {
+    width: 100%;
+    background-color: black;
+    padding: 40px 20px;
+    display: grid;
+    align-items: center;
+  }
+  .box{
+    margin: 0 auto;
+  }
+  .box h1{
+    margin-left: 10px;
+  }
+  .row2  {
+    display: flex;
+    flex-direction: column;
+  }
+  .box h3{
+    height: 10vh;
+    width: 650px;
+    background-color: rgb(49, 49, 49);
+    margin: 20px 0;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    padding: 0 10px;
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: white;
+  }
+  .login-box-para {
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    margin: 50px 10px 20px 10px;
+  }
+  .login-main {
+    display: flex;
+    flex-direction: column;
+  }
+  .boxContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .loginBox1 {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .loginBox1 input {
+    width: 500px;
+    height: 50px;
+  }
+  .btn-get-start {
+    background-color: #e30813;
+    color: #fff;
+    padding:10px 50px;
+    text-decoration: none;
+   width: 150px;
+    font-size:1.5rem
+  }
+  .btn-get-start:hover {
+    background-color: #ff0b18;
+  }
+  .box1, .box2, .box3, .box4, .box5, .box6{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+  }
+  .box button{
+    background-color:  rgb(49, 49, 49);
+    border: none;
+    color:#ffffff ;
+    font-size: 1.5rem;
+  }
+   .box h1{
+    color:#ffffff ;
+    font-size:3rem;
+  }
+  .answer_1{
+    width: 650px;
+    height: fit-content;
+    display: none;
+    background-color:  rgb(49, 49, 49);
+    color:#ffffff ;
+    font-size: 1.5rem;
+    padding: 10px;
+
+}
+.dNone{
+  display: none;
+}
+.dBlock{
+  display: block;
+}
+  @media(max-width:930px){
+    .loginBox1{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .loginBox1 input {
+      width: 400px;
+      height: 50px;
+      margin-top: 5px;
+    }
+    
+    }
+    .btn-get-start {
+      padding:10px 50px;
+      text-decoration: none;
+     width: 150px;
+      font-size:1.5rem;
+      margin-top: 5px;
+     
+    }
+  
+  @media(max-width:850px){
+    .box h1{
+      font-size:2.5rem;
+    }
+    .login-box-para {
+      font-size: 1rem;
+      font-weight: 200;
+    }
+    .loginBox1 input {
+      width: 400px;
+      height: 50px;
+      margin-top: 5px;
+    }
+    .btn-get-start {
+      padding:10px 50px;
+      text-decoration: none;
+     width: 150px;
+      font-size:1.5rem;
+      margin-top: 5px;
+    }
+    .box h1{
+      font-size:2.5rem;
+    }
+    .box h3{
+      width: 90%;
+      height: 8vh;
+      font-size: 1.2rem;
+     }
+    .box button{
+      font-size: 1.2rem;
+    }
+  }
+   @media(max-width:600px){
+    .loginBox1 input {
+      width: 300px;
+      height: 40px;
+      margin-top: 5px;
+    }
+    .btn-get-start {
+      padding:10px 40px;
+      text-decoration: none;
+     width: 120px;
+      font-size:1.2rem;
+      margin-top: 5px;
+    }
+   
+    .login-box-para {
+      font-size: 1rem;
+    }
+    .box h1{
+      font-size:2rem;
+    }
+    .box button{
+      font-size:1rem;
+    }
+    .box h3{
+     width: 90%;
+     font-size: 1.1rem;
+    }
+    
+  } 
+   
+  

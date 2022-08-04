@@ -1,0 +1,145 @@
+
+.vessel{
+  width: 100%;
+  padding: 20px;
+  height: 93vh;
+  position: relative;
+  background: radial-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),url("https://assets.nflxext.com/ffe/siteui/vlv3/1ef84595-1fdb-4404-adac-15215ceeb3ae/7645af9d-2679-4f54-b57d-3a6b5c670e14/IN-en-20220711-popsignuptwoweeks-perspective_alpha_website_medium.jpg") no-repeat center
+    center/cover;
+ 
+}
+
+.cover{
+  width: 100%;
+  height: 93vh;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.vessel-top{
+  padding: 1% 2%;
+  width: 100%;
+  height: 15vh;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  justify-content: space-between;
+align-items: center;
+}
+.logoimg img{
+  
+  height: 12vh;
+}
+.signin-btn{
+ padding:8px 20px;
+  background-color: #e30813;
+  color: white;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  width: 60px;
+  margin-left: 20px;
+  text-decoration: none;
+}
+.vessel-top-inner select{
+  width: 90px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 2px;
+}
+.vessel-content{
+  width: 100%;
+  height: 78vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+
+}
+.vessel-content h1{
+  color: #fff;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 80px;
+}
+.vessel-content p{
+  color: #fff;
+  font-size: 1.8rem;
+  line-height: 50px;
+}
+.vessel-content h4{
+  color: #fff;
+  font-weight: bold;
+  line-height: 50px;
+}
+.input-box input{
+   padding: 6px 0 6px 10px;
+  width: 550px;
+  line-height: 50px;
+}
+.btn-get-started{
+  margin-top: 2px;
+  background-color: #e30813;
+  color: #fff;
+  padding:15px 70px 23px 70px;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+@media(max-width:920px){
+  .vessel-top{
+    height: 12vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.input-box input{
+ width: 350px;
+ margin-bottom: 10px;
+}
+.btn-get-started{
+ margin: 0 80px;
+ background-color: #e30813;
+ color: #fff;
+ padding:20px 0px;
+}
+
+.vessel-content h1{
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 50px;
+}
+.vessel-content p{
+  
+  font-size: 1.5rem;
+  line-height: 40px;
+}
+.vessel-content h4{
+  line-height: 30px;
+}
+.input-box{
+display: flex;
+flex-direction: column;
+}
+.btn-get-started{
+  padding:10px 50px
+}
+
+}
+@media(max-width:650px){
+  .vessel-top{
+    padding: 1% 2%;
+    height: 12vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .vessel-content h1{
+  
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 40px;
+  }
+  .input-box input{
+   width: 350px;
+   height: 50px;
+   margin-bottom: 10px;
+  }
+}
